@@ -82,6 +82,7 @@ nav > ul li:hover .sous{
     text-align: left;
 }
 
+
 .sous a{
     padding: 10px;
     border-bottom: none;
@@ -93,7 +94,7 @@ nav > ul li:hover .sous{
 }
 
 .deroulant > a::after{
-    content:" ";
+    content:"";
     font-size: 12px;
 }
 
@@ -104,10 +105,19 @@ nav > ul li:hover .sous{
 }
 
 .Text-contain{
+    display: block;
+    float: left;
     margin-left: 5%;
     margin-right: 5%;
 
 }
 .Text-contain h1{
     text-align: center;
+}
+
+.Post_container{
+    display: block;
+    float: left;
+    margin-left: 25%;
+    margin-right: 5%;
 }
