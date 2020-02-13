@@ -101,15 +101,13 @@ nav > ul li:hover .sous{
 .conteneur{
 
     margin: 50px 20px;
-    height: 100%;
+    height: auto; 
     background-color:white;
     background-size: 100%;
-    z-index: 100;
 }
 
 .Text-contain{
-    display: block;
-    float: left;
+    display: inline-block;
     font-size: 100%;
     margin-left: 5%;
     margin-right: 5%;
@@ -121,12 +119,14 @@ nav > ul li:hover .sous{
 }
 
 .Post_container{
-    float: left;
+    display: inline-block;
     margin-left: 25%;
     margin-right: 5%;
 }
 
 .Frame_container {
+    display: block;
+    float: bottom;
     margin-left: 5%;
     margin-right: 5%;
 }
