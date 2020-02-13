@@ -99,25 +99,34 @@ nav > ul li:hover .sous{
 }
 
 .conteneur{
+
     margin: 50px 20px;
-    height: 1500px;
+    height: 100%;
     background-color:white;
+    background-size: 100%;
+    z-index: 100;
 }
 
 .Text-contain{
     display: block;
     float: left;
+    font-size: 100%;
     margin-left: 5%;
     margin-right: 5%;
 
 }
 .Text-contain h1{
     text-align: center;
+    text-decoration: underline;
 }
 
 .Post_container{
-    display: block;
     float: left;
     margin-left: 25%;
+    margin-right: 5%;
+}
+
+.Frame_container {
+    margin-left: 5%;
     margin-right: 5%;
 }
