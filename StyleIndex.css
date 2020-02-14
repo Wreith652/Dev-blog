@@ -18,7 +18,7 @@ body {
 	background-color:#04071D;
 	color: orange;
 	font-family: Comic Sans MS;
-	padding: 10px;
+	padding: 20px;
 }
 #header span {
 	color: black;
@@ -116,11 +116,31 @@ nav > ul li:hover .sous{
 .Text-contain h1{
     text-align: center;
     text-decoration: underline;
+    width: 80%;
+}
+
+.Text-contain h3{
+    text-align:left; 
+    text-decoration: underline;
+    color: #2B618C;
+    width: 80%;
+}
+
+.Text-contain p{
+    text-align: left;
+    text-decoration: none;
+    width: 80%;
 }
 
 .Post_container{
     display: inline-block;
     margin-left: 25%;
+    margin-right: 5%;
+}
+
+.post_container{
+    display: inline-block;
+    margin-left: 5%;
     margin-right: 5%;
 }
 

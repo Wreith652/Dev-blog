@@ -1,0 +1,107 @@
+<!doctype>
+<html>
+	<head>
+		<meta charset = "utf-8"/>
+		
+		<link rel="stylesheet" type="text/css" href="./StyleIndex.css"/>
+		<title> Page Base de données</title>
+        <style type="text/css">
+            
+        </style>
+	</head>
+	<body>
+
+		<div id="header">
+				<h1>
+					<img
+    		src="./images/Icon.png" 
+    		alt="Iocn du Site"
+    		height="150px" 
+    		width="125px" 
+    		align="midlle"
+					/><span>Lambert</span> Lucien
+				</h1>
+		</div>
+		
+		<nav>
+  			<ul>
+    			<li><a href="Index.html">Accueil &ensp;</a></li>
+    			<li class="deroulant"><a href="#">Mon travail &ensp;</a>
+    				<ul class="sous">
+    					<li><a href="#">Workshop</a>
+                            <ul>
+                                <li><a href="PageWorkshop.html">Lost Dino !</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Base de donnée</a>
+                            <ul>
+                                <li><a href="">Supermarché<!--Projet BDD--></a></li>
+                            </ul>
+                        </li>
+    					
+    				</ul>
+    			</li>
+    			<li class="deroulant"><a href="#"> À Propos&ensp;</a>
+    			    <ul class="sous">
+        				<li><a href="PageCV.html">Mon CV<!--Cv (mettre possibilité de téléchargement--></a></li>
+    			    </ul>
+    			</li>
+                <li><a href="#">Contact &ensp;</a></li>
+  			</ul>
+		</nav>
+
+		<div class="conteneur">
+           
+            <div class="Text-contain">
+    			<br><br>
+                <h1>
+                    Base de donnée d'un Supermarché ! 
+                </h1>
+                <br><br>
+                <p>
+                    L'objectif de ce projet réaliser en groupe de 3 était de créer une base de donnée contenant des milliers de data.<br>Réaliser durant l'année scolaire 2019 (première année d'étude), la base de donnée a été codé sur la plateforme SqlServer.
+                    Ce projet concerne donc le fonctionnement d'un supermarché, avec la gestion d'une commande effectuer par un client, la gestion des produits, ainsi que celle des employés de chaque magasin. Vous trouverez sur cette page un MCD et un MLD de la base de donnée, ainsi que la possibilité de télécharger la base de donnée complète et les quelques  requètes déjà créer.  <br><br>
+                </p>    
+                <br><br>
+                <h3>
+                    Mcd et Mld De la basse de donnée :
+                </h3>
+                <br>
+
+                <div class="post_container">
+
+                    <div class="image_container"><!-- Ouverture Pop-Up-->  
+                        <a href="javascript:ouvre_popup('./ProjetBDD/MCD_MLD.png')"><img src="./ProjetBDD/MCD_MLD.png" width="75%" height="75%"></a>
+                        <script type="text/javascript">
+                            function ouvre_popup(page) {
+                            window.open(page,"nom_popup","menubar=no, status=no, scrollbars=no, menubar=no, width=1550px, height=590px");
+                            }
+                        </script>
+
+                    </div>
+                <br><br>
+                </div>
+
+                <h3>
+                    Lien de téléchargement :
+                </h3>
+                <p>Pour les liens .sql et .png, Cliquer dessus va ouvrir une nouvelle page depuis laquelle vous pourrez faire : clic droit >> Enregister sous ... </p>
+                <br>
+                <h4>
+                    Base de donnée :
+                </h4>
+                <a href="./ProjetBDD/ScriptAvecDonnees.sql" download>ScripAvecDonnees.sql</a> <img src="./images/iconDL.jpg" width="20px" height="20px" margin-left="15px">
+                <br>
+                <a href="./ProjetBDD.zip" download="Dossier_Complet">Dossier Complet (.zip)</a> <img src="./images/iconDL.jpg" width="20px" height="20px" margin-left="15px">
+                <h4>
+                    Mcd et Mld :
+                </h4>
+                <a href="./ProjetBDD/MCD_MLD.png" download>MCD_MLD.png</a> <img src="./images/iconDL.jpg" width="20px" height="20px" margin-left="15px">
+                <br>  
+
+
+		  </div>
+        </div>
+
+	</body>
+</html>
